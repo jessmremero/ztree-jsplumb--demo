@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jsplumb-demo5</title>
+    <script  type="text/javascript" src="../jquery-1.4.4.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script  type="text/javascript" src="../jsplumb.js"></script>
+    <script  type="text/javascript" src="./demo5.js"></script>
+    <script  type="text/javascript" src="../jquery.ztree.core.js"></script>
+    <link rel="stylesheet" href="./zTreeStyle/zTreeStyle.css">
+    
+    <style>
+      #topbar{
+          display:flex;
+          justify-content: space-between;
+          align-items: center;
+      } 
+      #tree{
+          width:200px;
+          border:1px solid black;
+          height:600px;
+      }
+      #conitaner{
+          flex:1;
+          border:1px solid black;
+          height:600px;
+          margin-left:20px;
+          position:relative;
+      }
+    </style>  
+</head>
+<body>
+   <div id="topbar">
+    <div id="tree" class="ztree"></div>
+    <div id="conitaner"></div>
+  </div>
+</body>
+</html>
